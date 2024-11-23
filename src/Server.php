@@ -99,7 +99,7 @@ final class Server
     /**
      * Serve GRPC over given RoadRunner worker.
      */
-    public function serve(WorkerInterface $worker = null, callable $finalize = null): void
+    public function serve(?WorkerInterface $worker = null, ?callable $finalize = null): void
     {
         $worker ??= Worker::create();
 
