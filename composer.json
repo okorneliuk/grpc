@@ -25,6 +25,12 @@
             "homepage": "https://github.com/spiral/roadrunner/graphs/contributors"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/okorneliuk/worker"
+        }
+    ],
     "homepage": "https://roadrunner.dev/",
     "support": {
         "docs": "https://docs.roadrunner.dev",
@@ -43,7 +49,7 @@
         "ext-json": "*",
         "google/common-protos": "^3.1|^4.0",
         "google/protobuf": "^3.7 || ^4.0",
-        "spiral/roadrunner-worker": "^3.0",
+        "spiral/roadrunner-worker": "dev-3.x",
         "spiral/goridge": "^4.0",
         "spiral/roadrunner": "^2023.1 || ^2024.1"
     },
